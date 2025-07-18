@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/fontawesome-free-6.7.2-web/css/all.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/pages.css">
+  <link rel="stylesheet" href="./css/themes.css">
+  <title>folio</title>
+</head>
+<body>
+<!-- Theme Flyout -->
+<div class="theme-panel">
+  <div class="theme-body">
+    <span>Change Theme</span>
+    <div class="btn-group">
+      <button data-toggle="light" class="switcher-btn active">Light</button>
+      <button data-toggle="dark" class="switcher-btn">Dark</button>
+    </div>
+    <button class="theme-tab">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <nav class="navbar">
+    <div class="brand-logo">
+      <h2>folio.</h2>
+    </div>
+    <div class="navbar-nav">
+      <ul class="ul-default-none main-menu">
+        <li class="nav-item">Home</li>
+        <li class="nav-item" data-open="about">About Me</li>
+        <li class="nav-item" data-open="contact">Contact</li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-background">
+  <div class="container">
+    <div class="hero-content">
+      <div class="code-icon">
+        <i class="fas fa-code"></i>
+      </div>
+      <h2 class="header-large">Code. Eat. Sleep.</h2>
+      <div class="sub-header">
+        I create meaningful solutions for your brand and products.<br>
+        Give your customers the best experience possible.
+      </div>
+      <div class="btn btn-primary round-pill">
+        <a href="#" data-open="contact">Let's talk now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio-section">
+  <div class="container search-container">
+    <label for="search">
+      <input autocomplete="off" id="search" type="text" class="search-input" placeholder="Search...">
+      <i class="fas fa-search"></i>
+    </label>
+    <ul class="portfolio-filter-nav ul-default-none">
+      <li data-filter="all" class="filter-link active">All Work</li>
+      <li data-filter="web" class="filter-link">Web Development</li>
+      <li data-filter="app" class="filter-link">App Development</li>
+      <li data-filter="ui" class="filter-link">UI Design</li>
+    </ul>
+  </div>
+  <div id="portfolioGrid" class="portfolio-grid"></div>
+</section>
+
+<!-- Static Full-Site Modals -->
+<div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
+  <div class="container-fluid">
+    <header class="modal-header">
+      <h3>ABOUT PAGE</h3>
+      <i class="fas fa-times" data-close></i>
+    </header>
+    <div class="modal-body">
+      <div class="image-wrapper">
+        <img src="assets/images/img4.jpg" alt="head shot">
+      </div>
+      <h2>Jason Brewer</h2>
+      <p>text</p>
+      <p>text 2</p>
+      <div>
+        <div>Email Me:</div>
+        <a href="mailto:jason@devslopes.com">jason@devslopes.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="full-site-modal page-block" data-animation="zoomInOut">
+  <div class="container-fluid">
+    <header class="modal-header">
+      <h3>CONTACT PAGE</h3>
+      <i class="fas fa-times" data-close></i>
+    </header>
+    <div class="modal-body">
+      <div class="image-wrapper">
+        <img src="assets/images/img4.jpg" alt="head shot">
+      </div>
+      <h2>Jason Brewer</h2>
+      <p>text</p>
+      <p>text 2</p>
+      <div>
+        <div>Email Me:</div>
+        <a href="mailto:jason@devslopes.com">jason@devslopes.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
