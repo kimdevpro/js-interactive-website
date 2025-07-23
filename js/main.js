@@ -169,3 +169,15 @@ filterLinks.forEach(link => {
         });
     });
 });
+
+// get number of elements displayed
+// nodelist length
+
+const elementsDisplayed = getComputedStyle(root).getPropertyValue('--marquee-elements-displayed');
+const marqueeContent = document.querySelector('ul.marquee-content');
+
+root.style.setProperty('--marquee-elements', marqueeContent.children.length);
+
+for( let i = 0; i < elementsDisplayed; i++ ) {
+    marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}
