@@ -25,10 +25,4 @@ A responsive, interactive website built with **HTML**, **CSS**, and **JavaScript
 - **Vanilla JavaScript (ES6+)**
 - **Vercel** for deployment
 
----
-
-## 🚀 Live Demo
-
-Visit the live site here:  
-👉 [https://js-interactive-website.vercel.app](https://js-interactive-website.vercel.app)
 
